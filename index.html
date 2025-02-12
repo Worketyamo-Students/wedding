@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <title>Wedding</title>
-    \
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,18 +19,33 @@
       }
     </style>
   </head>
-  <body class="font-montaga">
+  <body class="font-[Montaga] text-secondary">
     <!-- header -->
-    <header>
-      <nav>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
+    <header class="w-full pt-10">
+      <nav class="flex justify-evenly items-center text-secondary">
+        <a href="">Home </a>
+        <a href="">Our Story</a>
+        <a href="">Venue</a>
+        <img src="./assets/images/cea.svg" alt="" />
+        <a href="">Itinierary</a>
+        <a href="">Registry</a>
+        <a href="">RSVP</a>
       </nav>
+      <!-- hero section -->
+      <section>
+        <div class="w-full flex flex-col items-center pt-15 gap-5">
+          <h4 class="text-primary font-bold">Please join us to celebrate</h4>
+          <h1 class="text-7xl">Caleb & Amaya</h1>
+          <h4 class="text-primary font-bold">July 15, 2022-Boise, Idaho</h4>
+        </div>
+        <div class="w-full p-20 pl-50 object-fill">
+          <img
+            src="./assets/images/center-img.svg"
+            alt=""
+            class="w-250 h-150"
+          />
+        </div>
+      </section>
     </header>
   </body>
 </html>
