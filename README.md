@@ -24,6 +24,8 @@ cd ./wedding
 
 ## Contributors 🛜
 
+\*-z
+
 - [Essame](https://github.com/SETANE-ESSAME-EMMANUEL)
 
 ## Badges 🏅
